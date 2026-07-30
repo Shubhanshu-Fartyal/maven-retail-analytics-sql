@@ -36,7 +36,6 @@ The project follows a real-world analytics workflow, covering database design, d
 - Clean and standardize the imported data.
 - Apply SQL to answer business questions.
 - Generate actionable business insights.
-- Build a project suitable for a Data Analyst portfolio.
 
 ---
 
