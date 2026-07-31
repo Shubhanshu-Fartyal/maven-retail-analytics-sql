@@ -26,5 +26,5 @@ ALTER TABLE Products ALTER COLUMN unit_price_usd TYPE TEXT;
 
 
 
-ALTER TABLE public.customers 
+ALTER TABLE Customers 
 ALTER COLUMN state_code TYPE VARCHAR(100);
