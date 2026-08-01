@@ -32,13 +32,6 @@ GROUP BY store_key
 HAVING COUNT(*) > 1;
 
 SELECT
-    store_key,
-    COUNT(*) AS duplicate_count
-FROM Stores
-GROUP BY store_key
-HAVING COUNT(*) > 1;
-
-SELECT
     order_number,
     line_item,
     COUNT(*) AS duplicate_count
