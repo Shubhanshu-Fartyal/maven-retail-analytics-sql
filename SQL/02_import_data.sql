@@ -1,7 +1,7 @@
 
 ALTER TABLE Sales
 DROP CONSTRAINT fk_sales_exchange;
-
+--because I had to change datatype of order_date column which was referenced
 
 
 ALTER TABLE Customers
