@@ -98,7 +98,7 @@ Primary and Foreign Key relationships were implemented to maintain data integrit
 - **Computers** was the highest revenue-generating product category.
 - Desktop computers dominated both revenue and sales volume.
 - **Adventure Works** was the best-performing brand.
-- The **United States** contributed more than half of total revenue.
+- The **United States** contributed more than half of the total revenue.
 - Physical stores generated nearly **80%** of overall revenue.
 - The Online Store was the highest-performing individual store.
 - North America had the largest customer base.
