@@ -1,10 +1,14 @@
-# Maven Retail Analytics (SQL)
+# Maven Retail SQL Analysis
 
 ## Project Overview
 
-This project analyzes sales data from a global electronics retailer using PostgreSQL. The objective is to transform raw transactional data into meaningful business insights by applying SQL for data cleaning, data modeling, and analytical querying.
+This project analyzes sales data from a global electronics retailer using PostgreSQL. The objective is to transform raw transactional data into meaningful business insights through database design, data validation, data cleaning, and analytical SQL queries.
 
-The project follows a real-world analytics workflow, covering database design, data validation, business analysis, and insight generation.
+> **Part 1 of the Maven Retail End-to-End Analytics Project**
+>
+> The complete project uses SQL, Excel, and Power BI to analyze the same retail dataset through different stages of the analytics workflow.
+
+The SQL stage focuses on building the database, preparing the data, solving business problems, and generating actionable insights.
 
 ---
 
@@ -35,7 +39,7 @@ The project follows a real-world analytics workflow, covering database design, d
 - Import and validate multiple CSV datasets.
 - Clean and standardize the imported data.
 - Apply SQL to answer business questions.
-- Generate actionable business insights.
+- Generate meaningful business insights from the results.
 
 ---
 
@@ -71,7 +75,7 @@ Primary and Foreign Key relationships were implemented to maintain data integrit
 9. Analyze customer distribution by continent.
 10. Identify top-performing stores.
 11. Compare online and physical store performance.
-12. Rank the Top 5 products within each product category.
+12. Identify the Top 5 revenue-generating products within each product category.
 
 ---
 
@@ -79,13 +83,13 @@ Primary and Foreign Key relationships were implemented to maintain data integrit
 
 - SELECT
 - WHERE
-- ORDER BY
 - GROUP BY
+- ORDER BY
 - Aggregate Functions
-- INNER JOIN
 - CASE Statements
 - Common Table Expressions (CTEs)
-- Window Functions (ROW_NUMBER)
+- Window Functions
+- Subqueries
 - Date Functions
 - Aliasing
 
@@ -94,21 +98,21 @@ Primary and Foreign Key relationships were implemented to maintain data integrit
 ## Key Insights
 
 - Generated **$55.76 million** in total revenue during the analysis period.
-- Revenue peaked in **2019** before declining in 2020.
+- Revenue peaked at approximately **$18.26 million in 2019**, followed by a decline in 2020 and a much lower reported revenue level in 2021.
 - **Computers** was the highest revenue-generating product category.
-- Desktop computers dominated both revenue and sales volume.
-- **Adventure Works** was the best-performing brand.
+- Desktop PC products appeared prominently among the highest-revenue and highest-volume products.
+- **Adventure Works generated the highest total revenue among the analyzed brands.**
 - The **United States** contributed more than half of the total revenue.
-- Physical stores generated nearly **80%** of overall revenue.
-- The Online Store was the highest-performing individual store.
-- North America had the largest customer base.
+- Physical stores generated approximately **79.5%** of overall revenue.
+- The **Online Store** was the highest-performing individual store by revenue.
+- **North America** had the largest customer base.
 
 ---
 
 ## Project Structure
 
 ```text
-Maven-Retail-Analytics/
+Maven-Retail-SQL-Analysis/
 │
 ├── Dataset/
 │   ├── Customers.csv
@@ -130,29 +134,4 @@ Maven-Retail-Analytics/
 │   ├── 08_business_insights.md
 │   └── database_schema.png
 │
-└──  README.md
-```
-
----
-
-## Skills Demonstrated
-
-- Database Design
-- Data Cleaning
-- Relational Data Modeling
-- SQL Query Writing
-- Business Analysis
-- Data Validation
-- Analytical Thinking
-- Documentation
-- GitHub Project Organization
-
----
-
-## Future Improvements
-
-- Convert sales into a common currency using exchange rates.
-- Develop an interactive Excel dashboard.
-- Build a Power BI dashboard using the same dataset.
-- Create KPI reports and executive dashboards.
-- Perform customer segmentation and sales trend forecasting.
+└── README.md
