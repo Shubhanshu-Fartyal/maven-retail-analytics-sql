@@ -4,11 +4,21 @@
 
 This project analyzes sales data from a global electronics retailer using PostgreSQL. The objective is to transform raw transactional data into meaningful business insights through database design, data validation, data cleaning, and analytical SQL queries.
 
-> **Part 1 of the Maven Retail End-to-End Analytics Project**
->
-> The complete project uses SQL, Excel, and Power BI to analyze the same retail dataset through different stages of the analytics workflow.
+The complete project uses SQL, Excel, and Power BI to analyze the same retail dataset through different stages of the analytics workflow.
 
-The SQL stage focuses on building the database, preparing the data, solving business problems, and generating actionable insights.
+
+
+> **This is Part 1 of the Maven Retail End-to-End Analytics Project**
+
+> This SQL stage focuses on building the database, preparing the data, solving business problems, and generating actionable insights.
+
+**Part 2 : Maven Retail Dashboard Excel** 
+
+https://github.com/Shubhanshu-Fartyal/maven-retail-dashboard-excel
+
+**Part 3 : Maven Retail Dashboard Power BI**
+
+https://github.com/Shubhanshu-Fartyal/Maven-Retail-Power-BI-Analysis
 
 ---
 
