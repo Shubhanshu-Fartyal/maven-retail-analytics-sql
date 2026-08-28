@@ -8,9 +8,8 @@ The complete project uses SQL, Excel, and Power BI to analyze the same retail da
 
 
 > **This is Part 1 of the Maven Retail End-to-End Analytics Project**
-
 This SQL stage focuses on building the database, preparing the data, solving business problems, and generating actionable insights.
->
+
 
 **Part 2 : Maven Retail Dashboard Excel** 
 
