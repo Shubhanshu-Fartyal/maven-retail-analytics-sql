@@ -6,11 +6,11 @@ This project analyzes sales data from a global electronics retailer using Postgr
 
 The complete project uses SQL, Excel, and Power BI to analyze the same retail dataset through different stages of the analytics workflow.
 
-```
-**This is Part 1 of the Maven Retail End-to-End Analytics Project**
+
+> **This is Part 1 of the Maven Retail End-to-End Analytics Project**
 
 This SQL stage focuses on building the database, preparing the data, solving business problems, and generating actionable insights.
-```
+>
 
 **Part 2 : Maven Retail Dashboard Excel** 
 
